@@ -1,0 +1,231 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0 auto;
+}
+
+header {
+  height: 50vh;
+  width: 100vw;
+  background-color: #2827cc;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.nav-item {
+  margin: 20px;
+  padding: 5px 8px;
+  color: white;
+  font-size: 20px;
+}
+
+.nav-item-active {
+  margin: 20px;
+  padding: 5px 8px;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #2827cc;
+}
+.logo {
+  margin-left: 40px;
+  position: relative;
+  bottom: 60px;
+}
+.header-text {
+  margin-left: 40px;
+  color: white;
+}
+
+.header-image {
+  position: relative;
+  left: 1035px;
+  bottom: 170px;
+  width: 400px;
+}
+.companies {
+  display: flex;
+  justify-content: space-between;
+  width: 30vw;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+.company-items {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
+
+.api-heading {
+  margin-left: 40px;
+  padding-bottom: 10px;
+  font-size: 25px;
+}
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 25vh;
+  margin-left: 5px;
+  margin-bottom: 10px;
+}
+.card-active {
+  flex-grow: 0.5;
+  border: 2px solid rgb(226, 221, 221);
+  background-color: rgb(253, 253, 253);
+  box-shadow: 5px 10px 10px #888888;
+}
+.card-head-active {
+  margin: 10px;
+  padding-left: 10px;
+}
+.card-logo {
+  width: 35px;
+  padding: 20px;
+}
+.card-head {
+  margin: 10px;
+  padding-left: 10px;
+}
+.card-body {
+  padding-left: 10px;
+}
+.blog-heading {
+  margin: 30px;
+  padding-top: 20px;
+}
+.blog-cards {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.blog-card {
+  display: flex;
+  flex-direction: row;
+  flex: 0.5;
+  justify-content: space-between;
+  border: 2px solid rgb(226, 221, 221);
+  border-radius: 20px;
+  background-color: rgb(253, 253, 253);
+  box-shadow: 5px 10px 10px #888888;
+  margin-left: 20px;
+  margin-right: 10px;
+  padding-right: 20px;
+}
+.blog-image {
+  order: -1;
+  padding-right: 20px;
+}
+.blog-content {
+  order: 3;
+  margin-top: 10px;
+}
+.blog-bottom {
+  order: 2;
+  margin-top: 15px;
+}
+.blog-author {
+  order: 1;
+  margin-top: 20px;
+}
+.faq-section {
+  padding: 20px;
+  margin-top: 60px;
+  margin-left: 40px;
+  width: 100vw;
+  height: 40vh;
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: space-between;
+  background-color: rgba(202, 213, 226, 0.8);
+}
+button {
+  padding: 5px 30px;
+  font-size: 15px;
+  border: none;
+  color: white;
+  background-color: #383cc1;
+}
+
+.download-section {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: space-between;
+  padding: 20px;
+  margin-top: 60px;
+  margin-left: 40px;
+}
+span {
+  font-size: 20px;
+}
+form {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+input {
+  border: transparent;
+  font-size: 15px;
+}
+#btn {
+  margin-left: 10px;
+  font-size: 15px;
+  border-radius: 20px;
+  color: white;
+  background-color: #383cc1;
+}
+.footer-section {
+  display: flex;
+  flex-direction: row;
+  background-color: #383cc1;
+  justify-content: space-between;
+  flex: 1;
+}
+.footer-logo {
+  margin-top: 30px;
+  margin-left: 60px;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.list-items {
+  color: white;
+  margin-left: 30px;
+  list-style-type: none;
+}
+.logos-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.logo-list-items {
+  color: white;
+  margin-right: 40px;
+  margin-top: 10px;
+  list-style-type: none;
+}
+.footer-logos {
+  margin-top: 40px;
+  margin-left: 45px;
+}
